@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design</title>
+  <link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/all.css"/>
+  <link rel="stylesheet" href="css/normaliz.css"/>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="Css/pages.css"/>
+  <link rel="stylesheet" href="Css/style.css"/>
+</head>
+<body>
+
+<!----Start Nav---->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand hvr-wobble-to-bottom-right "  href="#">Fawzy <span>Inc.</span> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="FAQ.html">FAQ</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Programming</a>
+              <a class="dropdown-item" href="#">Web Design</a>
+              <a class="dropdown-item" href="#">Desktop</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Web Hosting</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-----End Nav----->
+
+<!--Start breadcrumb-->
+
+<nav aria-label="breadcrumb-holde">
+  <div class="container">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">FAQ</li>
+    </ol>
+  </div>
+</nav>
+
+<!--End breadcrumb-->
+
+<!-- Start About Us Intro -->
+
+<section class="about-Us text-center">
+  <div class="container">
+    <h1>Frequently Asked Questions </h1>
+    <hr>
+    <p class="lead">Here You Will Find All Questions You Are Searching For And The Full Knowledgebase</p>
+  </div>
+</section>
+
+<!-- End About Us Intro -->
+
+<!-- Start FAQ Accordion -->
+
+<section class="accordion">
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+
+      <!-----------accordion 1------------>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h4 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              #1 How To Use Bootstrap Version 3.0?
+            </button>
+          </h4>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The  First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question 
+          </div>
+        </div>
+      </div>
+    <!----------accordion 2--------->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h4 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" >
+              Collapsible Group Item #2
+            </button>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The  First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question 
+          </div>
+        </div>
+      </div>
+    <!----------accordion 3------------->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h4 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+              #3 How To Use Media Queries?
+            </button>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe  The First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question 
+          </div>
+        </div>
+      </div>
+      <!-------------accordion 4-------------->
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h4 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+              #4 How To Create Your Own Slider?
+            </button>
+          </h4>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe  The First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe The Answer Of The First Question 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End FAQ Accordion -->
+
+<!-- Start Ultimate Footer Section -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <h3>Sitemap</h3>
+        <ul class="list-unstyled three-columns">
+          <li>Home</li> 
+          <li>About</li>
+          <li>Code</li>
+          <li>Contact</li>
+          <li>Company</li>
+          <li>Design</li>
+          <li>Host</li>
+          <li>Solutions</li>
+          <li>Contact</li>
+        </ul>
+
+        <ul class="list-unstyled social-list">
+          <li><img src="img/social-bookmarks/email.png"  alt="email"></li>
+          <li><img src="img/social-bookmarks/facebook.png" alt="facebook"></li>
+          <li><img src="img/social-bookmarks/gplus.png" alt="gplus"></li>
+          <li><img src="img/social-bookmarks/pinterest.png" alt="pinterest"></li>
+          <li><img src="img/social-bookmarks/rss.png" alt="rss"></li>
+          <li><img src="img/social-bookmarks/twitter.png" alt="twitter"></li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <h3>Latest Articles</h3>
+        <div class="media">
+          <img src="img/articles/01.jpg" class="mr-3" alt="">
+          <div class="media-body">
+            <h5>Programming </h5>
+            This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+          </div>
+        </div>
+
+        <div class="media">
+          <img src="img/articles/02.jpg" class="mr-3" alt="">
+          <div class="media-body">
+            <h5>Web Design  </h5>
+            This Is Some Text About Programming Describe The Media Of Bootstrap 4.7.0        
+          </div>
+        </div>
+
+        <div class="media">
+          <img  src="img/articles/03.jpg" class="mr-3" alt="">
+          <div class="media-body">
+            <h5>Coding</h5>
+            This Is Some Text About Programming Describe The Media Of Bootstrap 5.2.0       
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md text-center">
+        <h3>Our Awesome Work</h3>
+        <img src="img/work/01.jpg" class="im" alt="">
+        <img src="img/work/02.jpg" class="im" alt="">
+        <img src="img/work/03.jpg" class="im" alt="">
+        <img src="img/work/04.jpg" class="im" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-----------End ---------->
+
+<!--Strat Copyright -->
+
+<div class="Copyright text-center">
+  <div class="container">
+    Copyright © 2021 <span>Your Template Name .Inc</span>
+  </div>
+</div>
+
+<!-- End Copyright -->
+
+
+
+
+  <script src = "bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+  <script src = "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src = "bootstrap/js/bootstrap.min.js"></script> 
+</body>
+</html>
